@@ -1,0 +1,13 @@
+server:
+  port: 8085
+#  servlet:
+#    context-path:
+
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/musicapp"
+    username: root
+    password: root
+
+api:
+  prefix: /api/v1
