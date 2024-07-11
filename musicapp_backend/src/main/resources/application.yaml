@@ -11,3 +11,4 @@ spring:
 
 api:
   prefix: /api/v1
+  password_cost: 10

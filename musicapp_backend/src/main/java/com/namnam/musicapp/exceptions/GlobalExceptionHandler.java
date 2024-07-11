@@ -19,6 +19,7 @@ public class GlobalExceptionHandler {
         return ResponseEntity.badRequest().body(apiResponse); //400
     }
 
+
     @ExceptionHandler(value = AppException.class)
     ResponseEntity<ApiResponse> handlingAppException(AppException exception)
     {
